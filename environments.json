@@ -1,9 +1,16 @@
 {
-    "environments": [
-        {
-            "name": "production",
-            "configOverride": {},
-            "gitRef": "master"
-        }
-    ]
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {},
+      "gitRef": "master"
+    },
+    {
+      "name": "my_env",
+      "configOverride": {
+        "defaultDatabase": "dev"
+      },
+      "gitRef": "master"
+    }
+  ]
 }
