@@ -3,6 +3,6 @@ config {
 }
 
 -- select *
--- from 
+-- asd 
 --   ${ref("table_name")} / schema.table_name
 -- read more about ref() in the documentation tab -->
